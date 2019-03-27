@@ -1,7 +1,19 @@
-.main-banner {
+.banner-container {
   background: url("../images/main-bg.svg") no-repeat;
   background-size: cover;
   height: 100vh;
 
 }
 
+.text-container {
+  color: white;
+}
+
+.text-container h1 {
+  font-size: 200px;
+}
+
+.text-container h2 {
+  font-size: 40px;
+  padding-left: 50px;
+}

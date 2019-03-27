@@ -1,3 +1,7 @@
+
+/*import components*/
+@import url("components/container.css");
+
 /*import pages*/
 @import url("home-page.css");
 
