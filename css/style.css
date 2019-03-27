@@ -1,2 +1,12 @@
 /*import pages*/
-@import url("home-page.css")
+@import url("home-page.css");
+
+
+
+body {
+  margin: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
