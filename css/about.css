@@ -1,0 +1,13 @@
+.about {
+  height: 50vh;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title h3 {
+  margin-right: 60px;
+}

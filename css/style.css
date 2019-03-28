@@ -4,6 +4,7 @@
 
 /*import pages*/
 @import url("home-page.css");
+@import url("about.css");
 
 
 
@@ -13,4 +14,10 @@ body {
 
 h1, h2, p {
   margin: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 200px;
 }
