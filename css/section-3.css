@@ -4,3 +4,14 @@
   background-repeat: no-repeat;
 }
 
+.title2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 60px 0;
+}
+
+/*.skill {
+  border: 2px solid #A3DAD8;
+}
+*/

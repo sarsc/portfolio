@@ -1,5 +1,10 @@
 
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 /*import components*/
+
 @import url("components/container.css");
 
 /*import pages*/
@@ -7,14 +12,23 @@
 @import url("about.css");
 @import url("section-3.css");
 
-
-
 body {
+  margin: 0;
+  font-family: 'Lora', serif;
+}
+
+h1, h2, h3, p {
   margin: 0;
 }
 
-h1, h2, p {
-  margin: 0;
+h1, h3 {
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-size: 100px;
+  opacity: 0.06;
 }
 
 .main-container {
