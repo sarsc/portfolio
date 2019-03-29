@@ -1,0 +1,24 @@
+/*.project-container {*/
+}
+
+/*.position-left {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}*/
+
+/*.project {
+  display: flex;
+  flex-direction: columns;
+}*/
+
+.projects-main-container {
+  height: 100vh;
+  width: 100%;
+}
+
+
+/*.project-container {
+  height: 100%;
+}
+*/
