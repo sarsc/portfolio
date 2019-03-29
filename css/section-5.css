@@ -1,4 +1,20 @@
 .footer {
-  background: url("../images/footer-bg.svg");
   height: 30vh;
+  margin-top: 100px;
+}
+
+.footer img{
+  margin: 0 40px;
+}
+
+.footer-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  background: url("../images/footer-bg.svg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
 }
