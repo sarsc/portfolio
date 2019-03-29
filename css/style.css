@@ -1,8 +1,7 @@
 
 /*import fonts*/
-@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200i,300,400,600i,700');
 /*import components*/
 
 @import url("components/container.css");
@@ -14,20 +13,19 @@
 
 body {
   margin: 0;
-  font-family: 'Lora', serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 h1, h2, h3, p {
   margin: 0;
 }
 
-h1, h3 {
-  /*font-family: 'Libre Baskerville', serif;*/
+h1, h2, h3 {
   font-family: 'Playfair Display', serif;
 }
 
 h3 {
-  font-size: 100px;
+  font-size: 70px;
   opacity: 0.06;
 }
 
