@@ -1,8 +1,7 @@
 .banner-container {
-  background: url("../images/main-bg.svg") no-repeat;
+  background: url("../images/mbg.svg") no-repeat;
   background-size: cover;
   height: 100vh;
-
 }
 
 .text-container {
@@ -11,6 +10,7 @@
 
 .text-container h1 {
   font-size: 200px;
+  /*letter-spacing: 1rem;*/
 }
 
 .text-container h2 {

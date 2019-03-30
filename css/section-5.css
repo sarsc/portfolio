@@ -1,8 +1,3 @@
-.footer {
-  height: 30vh;
-  margin-top: 100px;
-}
-
 .footer img{
   margin: 0 40px;
 }
@@ -14,7 +9,10 @@
   padding-top: 40px;
   background: url("../images/footer-bg.svg") no-repeat;
   background-size: cover;
-  height: 100%;
-  width: 100%;
+  height: 30vh;
+}
 
+.contact-icons img {
+  margin: 0 30px;
+  margin-top: 50px
 }

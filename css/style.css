@@ -16,6 +16,7 @@
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 h1, h2, h3, p {
@@ -35,4 +36,5 @@ h3 {
   display: flex;
   justify-content: center;
   margin: 0 200px;
+  /*height: 100vh;*/
 }
