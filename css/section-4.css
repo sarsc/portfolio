@@ -29,3 +29,16 @@
   justify-content: flex-end;
   margin-bottom: 60px;
 }
+
+.p-hover {
+  background: url('../images/project-hover.svg');
+}
+
+/*.project{
+  position: relative;
+}
+
+.image2 {
+  position: absolute;
+  left: 355px;
+}*/
