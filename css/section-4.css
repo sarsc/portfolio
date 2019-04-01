@@ -20,7 +20,6 @@
 }
 
 .projects-main-container {
-  /*height: 100vh;*/
   width: 100%;
 }
 
@@ -34,9 +33,42 @@
   background: url('../images/project-hover.svg');
 }
 
-#project {
+/*#project {
   display: inline-block;
-  max-width:370px;
-  max-height:300px;
+  max-width: 370px;
+  max-height: 300px;
+}*/
+
+@media (max-width: 768px) {
+
+  /*.projects-container {
+    width: auto;
+    padding-left: 0;
+  }
+
+  .title3 {
+    margin: 60px 0;
+  }
+
+  .projects-container img {
+    margin-bottom: 0;
+    width: 40%;
+  }*/
 }
 
+
+@media (max-width: 375px) {
+  .projects-container {
+    width: auto;
+    padding-left: 0;
+  }
+
+  .title3 {
+    margin: 60px 0;
+  }
+
+  .projects-container img {
+    margin-bottom: 0;
+    width: 40%;
+  }
+}
