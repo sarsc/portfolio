@@ -22,8 +22,8 @@
   border-radius: 2px;
 }
 .skill p {
-  padding: 18px 8px;
-  font-size: 20px;
+  padding: 14px 0;
+  font-size: 18px;
   font-weight: bold;
   color: #A3DAD8;
   text-align: center;
@@ -37,5 +37,7 @@
 .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 60px;
+  grid-gap: 80px;
+  grid-row-gap: 50px;
+  padding-top: 40px;
 }
