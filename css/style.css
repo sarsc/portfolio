@@ -28,8 +28,9 @@ h1, h2, h3 {
 }
 
 h3 {
-  font-size: 70px;
-  opacity: 0.06;
+  font-size: 50px;
+  opacity: 0.4;
+  color: #aec1c1;
 }
 
 .main-container {
@@ -43,7 +44,7 @@ h3 {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .main-container {
     margin: 0 100px;
     }

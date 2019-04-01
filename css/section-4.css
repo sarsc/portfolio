@@ -40,23 +40,27 @@
 }*/
 
 @media (min-width: 768px) and (max-width: 992px) {
+  .projects-main-container {
+    padding-bottom: 60px;
+  }
 
-  /*.projects-container {
+  .projects-container {
     width: auto;
     padding-left: 0;
   }
 
   .title3 {
-    margin: 60px 0;
+    margin: 70px 0;
   }
 
   .projects-container img {
     margin-bottom: 0;
-    width: 40%;
-  }*/
+    width: 45%;
+  }
 }
 
 @media (min-width: 411px) and (max-width: 595px)  {
+
   .projects-container {
     width: auto;
     padding-left: 0;
