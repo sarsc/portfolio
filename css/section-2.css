@@ -17,3 +17,27 @@
   font-weight: lighter;
   width: 600px;
 }
+
+@media (max-width: 768px) {
+.about {
+  height: 50vh;
+}
+.title {
+  margin-top: 20px;
+}
+.text {
+  font-size: 18px;
+  width: auto;
+}
+
+
+@media (max-width: 375px) {
+.about {
+  height: 50vh;
+}
+.text {
+  font-size: 12px;
+  width: auto;
+}
+
+}
