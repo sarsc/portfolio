@@ -66,6 +66,29 @@
 
 }
 
+@media (min-width: 411px) and (max-width: 595px)  {
+  .secondary-banner {
+      height: 50vh;
+    }
+    .title2 {
+      margin-top: 60px;
+      margin-bottom: 0;
+    }
+
+    .title2 h3 {
+      margin-bottom: 0;
+    }
+    .skill p {
+      padding: 4px 4px;
+      font-size: 12px;
+    }
+     .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-row-gap: 12px;
+  }
+}
 
 @media (max-width: 375px) {
   .secondary-banner {

@@ -52,6 +52,15 @@ h3 {
   }
 }
 
+@media (min-width: 411px) and (max-width: 595px) {
+  .main-container {
+     margin: 0 70px;
+  }
+  h3 {
+    margin: 0;
+    font-size: 26px;
+  }
+}
 @media (max-width: 375px) {
   /* For a screen < 540px, this CSS will be read */
   .main-container {
