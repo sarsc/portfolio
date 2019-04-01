@@ -18,26 +18,29 @@
   width: 600px;
 }
 
-@media (max-width: 768px) {
-.about {
-  height: 50vh;
-}
-.title {
-  margin-top: 20px;
-}
-.text {
-  font-size: 18px;
-  width: auto;
+@media (min-width: 768px) and (max-width: 992px) {
+  .about {
+    height: 50vh;
+  }
+  .title {
+    margin-top: 20px;
+  }
+  .text {
+    font-size: 18px;
+    width: auto;
+  }
 }
 
+/*@media (min-width: 425px) {
+
+}*/
 
 @media (max-width: 375px) {
-.about {
-  height: 50vh;
-}
-.text {
-  font-size: 12px;
-  width: auto;
-}
-
+  .about {
+    height: 50vh;
+  }
+  .text {
+    font-size: 12px;
+    width: auto;
+  }
 }

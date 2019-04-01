@@ -43,22 +43,22 @@ h3 {
   display: none;
 }
 
-@media (max-width: 768px) {
-.main-container {
-  margin: 0 100px;
-}
-h3 {
-  font-size: 30px;
-}
+@media (min-width: 768px) {
+  .main-container {
+    margin: 0 100px;
+    }
+  h3 {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 375px) {
   /* For a screen < 540px, this CSS will be read */
-.main-container {
-  margin: 0 35px;
-}
+  .main-container {
+    margin: 0 35px;
+  }
 
-h3 {
-  font-size: 24px;
-}
+  h3 {
+    font-size: 24px;
+  }
 }
