@@ -64,6 +64,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
     grid-row-gap: 25px;
+    width: 95%;
+    padding-top: 50px;
   }
 
 }
