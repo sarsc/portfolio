@@ -62,7 +62,7 @@ h3 {
     font-size: 26px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   /* For a screen < 540px, this CSS will be read */
   .main-container {
     margin: 0 35px;

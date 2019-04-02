@@ -2,6 +2,7 @@
   background: url("../images/mbg.svg") no-repeat;
   background-size: cover;
   height: 100vh;
+  overflow: hidden;
 }
 
 .text-container {
@@ -42,7 +43,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .banner-container {
     height: 50vh;
   }

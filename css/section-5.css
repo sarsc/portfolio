@@ -23,7 +23,7 @@
   font-size: 24px;
   display: flex;
   justify-content:center;
-  margin: 16px;
+  margin: 28px;
 }
 
 .contact p {
@@ -37,7 +37,7 @@
 
 .contact {
   position: absolute;
-  top: 166px;
+  top: 150px;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -91,7 +91,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .footer-container {
     height: 15vh;
   }
