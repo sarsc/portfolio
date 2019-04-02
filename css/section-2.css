@@ -30,7 +30,7 @@
   }
 }
 
-@media (min-width: 411px) and (max-width: 595px)  {
+@media (max-width: 595px)  {
   .about {
     height: 50vh;
   }

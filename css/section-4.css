@@ -12,12 +12,13 @@
 .projects-container img {
   margin-bottom: 50px;
 }
-.position-left {
+/*.position-left {
   align-self: flex-start;
-}
+
+}*/
 
 .position-right {
-  align-self: flex-end;
+  float: right;
 }
 
 .projects-main-container {
@@ -60,7 +61,7 @@
   }
 }
 
-@media(max-width: 595px) {
+@media (max-width: 595px) {
 
   .projects-container {
     width: auto;
@@ -82,7 +83,6 @@
   .projects-container {
     width: auto;
     padding: 40px;
-    justify-content: space-around;
   }
 
   .title3 {
@@ -90,11 +90,8 @@
   }
 
   .projects-container img {
-    margin-bottom: 0;
+    margin-bottom: 36px;
     width: 80%;
   }
 
-  .position-left, .position-right {
-    align-self: center;
-  }
 }

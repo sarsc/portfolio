@@ -2,7 +2,7 @@
   background: url("../images/mbg.svg") no-repeat;
   background-size: cover;
   height: 100vh;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .text-container {
@@ -11,7 +11,6 @@
 
 .text-container h1 {
   font-size: 200px;
-  /*letter-spacing: 1rem;*/
 }
 
 .text-container h2 {
@@ -29,7 +28,7 @@
   }
 }
 
-@media (min-width: 411px) and (max-width: 595px)  {
+@media (max-width: 595px)  {
   .banner-container {
     height: 70vh;
     padding: 0 30px;
