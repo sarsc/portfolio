@@ -63,7 +63,7 @@
     top: 100px;
   }
 
-@media (min-width: 411px) and (max-width: 595px)  {
+@media (min-width: 411px) and (max-width: 595px) {
   .footer-container {
     height: 20vh;
   }
