@@ -81,15 +81,20 @@
 @media (max-width: 480px) {
   .projects-container {
     width: auto;
-    padding-left: 0;
+    padding: 40px;
+    justify-content: space-around;
   }
 
   .title3 {
-    margin: 60px 0;
+    margin-top: 60px;
   }
 
   .projects-container img {
     margin-bottom: 0;
-    width: 40%;
+    width: 80%;
+  }
+
+  .position-left, .position-right {
+    align-self: center;
   }
 }

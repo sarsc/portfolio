@@ -65,7 +65,7 @@ h3 {
 @media (max-width: 480px) {
   /* For a screen < 540px, this CSS will be read */
   .main-container {
-    margin: 0 35px;
+    margin: 0 80px;
   }
 
   h3 {

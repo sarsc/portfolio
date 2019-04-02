@@ -97,6 +97,7 @@
   .secondary-banner {
     height: 50vh;
   }
+
   .title2 {
     margin-top: 60px;
     margin-bottom: 0;
@@ -113,7 +114,7 @@
   .skills-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
     grid-gap: 20px;
-    grid-row-gap: 12px;
   }
 }
