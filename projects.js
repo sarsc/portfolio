@@ -2,20 +2,26 @@
 // test show image on hover
 
 
-// const project = document.getElementById("project");
-// const image1  = document.getElementById("image1");
-// const image2  = document.getElementById("image2")
-// project.addEventListener("mouseenter", (event) => {
-//   event.preventDefault();
-//   image1.classList.add("d-none");
-//   image2.classList.remove("d-none")
-//  });
+// // const project = document.getElementBy(Id("project");
+// const images  = document.querySelectorAll("#image");
+// const text = document.getElementById("text");
+// // const image2  = document.getElementById("image2")
+// images.forEach((img) => {
+//   img.addEventListener("mouseove", (event) => {
+//     // event.preventDefault();
+//   event.currentTarget.classList.add("d-none");
+// // text.classList.remove("d-none");
 
 
-// project.addEventListener("mouseleave", (event) => {
-//   event.preventDefault();
-//   image2.classList.add("d-none");
-//   image1.classList.remove("d-none");
-//  });
+// });
+// });
+
+// images.forEach((img) => {
+//   img.addEventListener("mouseout", (event) => {
+//     event.preventDefault();
+//   event.currentTarget.classList.remove("d-none");
+// // text.classList.remove("d-none");
 
 
+// });
+// });

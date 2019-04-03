@@ -35,11 +35,23 @@
   background: url('../images/project-hover.svg');
 }
 
+.p-description {
+  border: 1px solid;
+  background: #A3DAD8;
+  opacity: 0.7;
+  min-height: 273px;
+  max-width: 325px;
+
+}
+
+
 /*#project {
   display: inline-block;
   max-width: 370px;
   max-height: 300px;
 }*/
+
+
 
 @media (min-width: 768px) and (max-width: 992px) {
   .projects-main-container {
