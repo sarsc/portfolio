@@ -1,27 +1,27 @@
 
-// test show image on hover
+// // test show image on hover
 
 
-// // const project = document.getElementBy(Id("project");
+// const projects = document.querySelectorAll("#project");
 // const images  = document.querySelectorAll("#image");
+// const image  = document.querySelector("#image");
 // const text = document.getElementById("text");
 // // const image2  = document.getElementById("image2")
-// images.forEach((img) => {
-//   img.addEventListener("mouseove", (event) => {
+
+// let counter = 0;
+
+// projects.forEach((project) => {
+//   project.addEventListener("mouseover", (event) => {
 //     // event.preventDefault();
-//   event.currentTarget.classList.add("d-none");
-// // text.classList.remove("d-none");
-
-
+//   image.classList.toggle("d-none");
+//   text.classList.remove("d-none");
 // });
 // });
 
-// images.forEach((img) => {
-//   img.addEventListener("mouseout", (event) => {
-//     event.preventDefault();
-//   event.currentTarget.classList.remove("d-none");
-// // text.classList.remove("d-none");
-
-
+// projects.forEach((project) => {
+//   project.addEventListener("mouseout", (event) => {
+//   // event.preventDefault();
+//   image.classList.remove("d-none");
+//   text.classList.add("d-none");
 // });
 // });

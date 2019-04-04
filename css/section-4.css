@@ -45,13 +45,19 @@
 }
 
 
-/*#project {
+/*.project {
   display: inline-block;
   max-width: 370px;
   max-height: 300px;
+  border: 1px solid black;
 }*/
 
+/*#project {
+  width: 40%;
+  background: red;
+}
 
+*/
 
 @media (min-width: 768px) and (max-width: 992px) {
   .projects-main-container {
