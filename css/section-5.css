@@ -39,7 +39,26 @@
   position: absolute;
   top: 150px;
 }
+@media (max-width: 1200px)  {
+  .contact h4 {
+    font-size: 20px;
+    /*margin: 14px;*/
+  }
 
+  .contact p {
+    font-size: 18px;
+  }
+
+   .link img {
+    width: 80%;
+  }
+
+   .contact {
+    position: absolute;
+    top: 95px;
+  }
+
+}
 @media (min-width: 768px) and (max-width: 992px) {
 
   .footer-container {
