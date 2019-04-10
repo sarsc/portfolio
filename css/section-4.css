@@ -91,16 +91,17 @@
   }
 
   .projects-container img {
-    margin-bottom: 36px;
+    margin-bottom: 45px;
     width: 50%;
-
   }
 }
 
 @media (max-width: 480px) {
+
   .projects-container {
     width: auto;
-    padding: 40px;
+    /*padding: 40px;*/
+    padding-top: 0;
   }
 
   .title3 {
@@ -108,8 +109,6 @@
   }
 
   .projects-container img {
-    margin-bottom: 36px;
     width: 80%;
   }
-
 }
