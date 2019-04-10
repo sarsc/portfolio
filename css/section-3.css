@@ -21,6 +21,7 @@
   border: 2px solid #A3DAD8;
   border-radius: 2px;
 }
+
 .skill p {
   padding: 14px 0;
   font-size: 18px;
@@ -96,7 +97,7 @@
 
 @media (max-width: 595px)  {
   .secondary-banner {
-      height: 50vh;
+      min-height: 50vh;
     }
     .title2 {
       margin-top: 60px;
@@ -122,11 +123,11 @@
 
 @media (max-width: 480px) {
   .secondary-banner {
-    height: 50vh;
+    min-height: 70vh;
   }
 
   .title2 {
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 0;
   }
 
@@ -135,15 +136,19 @@
     margin-top: 0;
   }
   .skill p {
-    padding: 4px 4px;
-    font-size: 12px;
+    padding: 8px 6px;
+    font-size: 18px;
   }
 
   .skills-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
+    grid-template-columns: 1fr;
+    width: 80%;
     grid-gap: 20px;
-    padding-top: 40px;
+    padding-top: 50px;
+  }
+
+  .skills-main-container {
+    padding-bottom: 80px;
   }
 }
