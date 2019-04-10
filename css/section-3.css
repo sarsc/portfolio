@@ -76,7 +76,7 @@
   }
 
   .secondary-banner {
-    height: 50vh;
+    min-height: 50vh;
   }
 
   .skills-container {
@@ -85,7 +85,11 @@
     grid-gap: 40px;
     grid-row-gap: 25px;
     width: 95%;
-    padding-top: 50px;
+    padding-top: 60px;
+  }
+
+  .skills-main-container {
+    padding-bottom: 100px;
   }
 
 }
