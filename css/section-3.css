@@ -1,6 +1,6 @@
 .secondary-banner {
   background: url("../images/middle-bg.svg");
-  height: 80vh;
+  min-height: 80vh;
   background-repeat: no-repeat;
 }
 .skills-main-container, .title2 {
@@ -33,6 +33,7 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
+  padding-bottom: 200px;
 }
 
 .skills-container {

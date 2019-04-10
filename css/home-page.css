@@ -1,7 +1,7 @@
 .banner-container {
   background: url("../images/mbg.svg") no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   /*overflow: hidden;*/
 }
 
