@@ -17,6 +17,7 @@ body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
   letter-spacing: 0.2rem;
+  line-height: 2rem;
 }
 
 h1, h2, h3, h4, p {
@@ -53,22 +54,22 @@ h3 {
   }
 }
 
-@media (min-width: 411px) and (max-width: 595px) {
+@media (max-width: 595px) {
   .main-container {
      margin: 0 70px;
   }
   h3 {
     margin: 0;
-    font-size: 26px;
+    font-size: 28px;
   }
 }
 @media (max-width: 480px) {
   /* For a screen < 540px, this CSS will be read */
   .main-container {
-    margin: 0 60px;
+    margin: 0 40px;
   }
 
-  h3 {
-    font-size: 28px;
-  }
+  /*.text {
+    line-height: 1.6rem;
+  }*/
 }

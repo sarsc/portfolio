@@ -41,15 +41,12 @@
   .text {
     font-size: 14px;
     width: auto;
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 480px) {
   .about {
-    height: 50vh;
-  }
-  .text {
-    font-size: 12px;
-    width: auto;
+    height: auto;
   }
 }
