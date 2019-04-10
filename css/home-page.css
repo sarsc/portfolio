@@ -45,19 +45,17 @@
 
   .text-container h2 {
     font-size: 18px;
+    padding-left: 0;
   }
 }
 
 @media (max-width: 480px) {
   .banner-container {
     height: 50vh;
-  }
-  .text-container h1 {
-    font-size: 40px;
-  }
-
-  .text-container h2 {
-    font-size: 12px;
+    text-align: center;
+    background: url('../images/main-bg-s.svg') no-repeat;
+    background-size: cover;
+    width: 100%;
   }
 }
 
