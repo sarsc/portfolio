@@ -16,6 +16,7 @@
   padding-bottom: 50px;
   font-weight: lighter;
   width: 600px;
+  line-height: 3rem;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
