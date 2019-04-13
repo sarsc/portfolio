@@ -60,7 +60,6 @@
 */
 
 @media (max-width: 992px) {
-
   .projects-main-container {
     padding-bottom: 60px;
   }
@@ -81,14 +80,12 @@
 }
 
 @media screen and (max-width: 767px) {
-  /*.projects-container img {
-    margin-bottom: 0;
-    width: 45%;
-  }*/
+  .projects-container img {
+    padding-bottom: 85px;
+    width: 70%;
 }
 
 @media (max-width: 595px) {
-
   .projects-container {
     width: auto;
     padding-left: 0;
@@ -100,12 +97,11 @@
 
   .projects-container img {
     margin-bottom: 45px;
-    width: 50%;
+    width: 85%;
   }
 }
 
 @media (max-width: 480px) {
-
   .projects-container {
     width: auto;
     /*padding: 40px;*/
