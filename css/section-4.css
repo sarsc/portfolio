@@ -10,11 +10,11 @@
 }
 
 .projects-container img {
-  margin-bottom: 50px;
+  margin-bottom: 95px;
 }
+
 /*.position-left {
   align-self: flex-start;
-
 }*/
 
 .position-right {
@@ -59,7 +59,8 @@
 
 */
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (max-width: 992px) {
+
   .projects-main-container {
     padding-bottom: 60px;
   }
@@ -77,6 +78,13 @@
     margin-bottom: 0;
     width: 45%;
   }
+}
+
+@media screen and (max-width: 767px) {
+  /*.projects-container img {
+    margin-bottom: 0;
+    width: 45%;
+  }*/
 }
 
 @media (max-width: 595px) {
