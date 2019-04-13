@@ -8,6 +8,7 @@
 
 .text-container {
   color: white;
+  margin: 200px 0;
 }
 
 .text-container h1 {
@@ -22,6 +23,10 @@
 @media (max-width: 1200px)  {
   .text-container h1 {
     font-size: 160px;
+  }
+
+  .text-container {
+    margin: 153px 0;
   }
 }
 
